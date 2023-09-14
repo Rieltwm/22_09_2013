@@ -15,8 +15,6 @@
 # 5 10 15 20 25 30
 # 6 12 18 24 30 36
 
-# Для pull request
-
 def print_operation_table(operation, num_rows=6, num_columns=6):
     a = [[operation(i, j) for j in range(1, num_columns + 1)] for i in range(1, num_rows + 1)]
     for i in a:
